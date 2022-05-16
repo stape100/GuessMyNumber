@@ -50,6 +50,8 @@ document.querySelector('.check').addEventListener('click', function () {
   }
 });
 
+// When the 'again' button is hit
+
 document.querySelector('.again').addEventListener('click', function () {
   score = 20;
   const secretNumber = Math.trunc(Math.random() * 20 + 1);
